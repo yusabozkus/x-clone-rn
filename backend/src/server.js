@@ -9,7 +9,7 @@ import notficationRoutes from "./routes/notification.route.js";
 
 import { ENV } from "./config/env.js";
 import { connectDB } from "./config/db.js";
-import { arcjetMiddleware } from "./middleware/arcjet..middleware.js";
+import { arcjetMiddleware } from "./middleware/arcjet.middleware.js";
 
 const app = express();
 
